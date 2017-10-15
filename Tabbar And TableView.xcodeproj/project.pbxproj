@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED2E7311A19F2570043BA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7301A19F2570043BA55 /* Foundation.framework */; };
+		FED2E7331A19F2570043BA55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7321A19F2570043BA55 /* CoreGraphics.framework */; };
+		FED2E7351A19F2580043BA55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7341A19F2580043BA55 /* UIKit.framework */; };
+		FED2E73B1A19F2580043BA55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED2E7391A19F2580043BA55 /* InfoPlist.strings */; };
+		FED2E73D1A19F2580043BA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2E73C1A19F2580043BA55 /* main.m */; };
+		FED2E7411A19F2580043BA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2E7401A19F2580043BA55 /* AppDelegate.m */; };
+		FED2E7431A19F2580043BA55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2E7421A19F2580043BA55 /* Images.xcassets */; };
+		FED2E74A1A19F2580043BA55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7491A19F2580043BA55 /* XCTest.framework */; };
+		FED2E74B1A19F2580043BA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7301A19F2570043BA55 /* Foundation.framework */; };
+		FED2E74C1A19F2580043BA55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2E7341A19F2580043BA55 /* UIKit.framework */; };
+		FED2E7541A19F2580043BA55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED2E7521A19F2580043BA55 /* InfoPlist.strings */; };
+		FED2E7561A19F2580043BA55 /* Tabbar_And_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2E7551A19F2580043BA55 /* Tabbar_And_TableViewTests.m */; };
+		FED2E7621A19F27E0043BA55 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2E7601A19F27E0043BA55 /* TableViewController.m */; };
+		FED2E7631A19F27E0043BA55 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED2E7611A19F27E0043BA55 /* TableViewController.xib */; };
+		FED2E7671A19F29D0043BA55 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2E7651A19F29D0043BA55 /* RegisterViewController.m */; };
+		FED2E7681A19F29D0043BA55 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED2E7661A19F29D0043BA55 /* RegisterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED2E74D1A19F2580043BA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED2E7251A19F2570043BA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED2E72C1A19F2570043BA55;
+			remoteInfo = "Tabbar And TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FED2E72D1A19F2570043BA55 /* Tabbar And TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabbar And TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED2E7301A19F2570043BA55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FED2E7321A19F2570043BA55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FED2E7341A19F2580043BA55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FED2E7381A19F2580043BA55 /* Tabbar And TableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabbar And TableView-Info.plist"; sourceTree = "<group>"; };
+		FED2E73A1A19F2580043BA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FED2E73C1A19F2580043BA55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED2E73E1A19F2580043BA55 /* Tabbar And TableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabbar And TableView-Prefix.pch"; sourceTree = "<group>"; };
+		FED2E73F1A19F2580043BA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED2E7401A19F2580043BA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED2E7421A19F2580043BA55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FED2E7481A19F2580043BA55 /* Tabbar And TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabbar And TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED2E7491A19F2580043BA55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FED2E7511A19F2580043BA55 /* Tabbar And TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabbar And TableViewTests-Info.plist"; sourceTree = "<group>"; };
+		FED2E7531A19F2580043BA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FED2E7551A19F2580043BA55 /* Tabbar_And_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tabbar_And_TableViewTests.m; sourceTree = "<group>"; };
+		FED2E75F1A19F27E0043BA55 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = "Tabbar And TableView/TableViewController.h"; sourceTree = "<group>"; };
+		FED2E7601A19F27E0043BA55 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = "Tabbar And TableView/TableViewController.m"; sourceTree = "<group>"; };
+		FED2E7611A19F27E0043BA55 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = "Tabbar And TableView/TableViewController.xib"; sourceTree = "<group>"; };
+		FED2E7641A19F29D0043BA55 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = "Tabbar And TableView/RegisterViewController.h"; sourceTree = "<group>"; };
+		FED2E7651A19F29D0043BA55 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = "Tabbar And TableView/RegisterViewController.m"; sourceTree = "<group>"; };
+		FED2E7661A19F29D0043BA55 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = "Tabbar And TableView/RegisterViewController.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED2E72A1A19F2570043BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E7331A19F2570043BA55 /* CoreGraphics.framework in Frameworks */,
+				FED2E7351A19F2580043BA55 /* UIKit.framework in Frameworks */,
+				FED2E7311A19F2570043BA55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED2E7451A19F2580043BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E74A1A19F2580043BA55 /* XCTest.framework in Frameworks */,
+				FED2E74C1A19F2580043BA55 /* UIKit.framework in Frameworks */,
+				FED2E74B1A19F2580043BA55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED2E7241A19F2570043BA55 = {
+			isa = PBXGroup;
+			children = (
+				FED2E7361A19F2580043BA55 /* Tabbar And TableView */,
+				FED2E7691A19F2B30043BA55 /* ViewControllers */,
+				FED2E76A1A19F2C40043BA55 /* XIBs */,
+				FED2E74F1A19F2580043BA55 /* Tabbar And TableViewTests */,
+				FED2E72F1A19F2570043BA55 /* Frameworks */,
+				FED2E72E1A19F2570043BA55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED2E72E1A19F2570043BA55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E72D1A19F2570043BA55 /* Tabbar And TableView.app */,
+				FED2E7481A19F2580043BA55 /* Tabbar And TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED2E72F1A19F2570043BA55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7301A19F2570043BA55 /* Foundation.framework */,
+				FED2E7321A19F2570043BA55 /* CoreGraphics.framework */,
+				FED2E7341A19F2580043BA55 /* UIKit.framework */,
+				FED2E7491A19F2580043BA55 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED2E7361A19F2580043BA55 /* Tabbar And TableView */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E73F1A19F2580043BA55 /* AppDelegate.h */,
+				FED2E7401A19F2580043BA55 /* AppDelegate.m */,
+				FED2E7421A19F2580043BA55 /* Images.xcassets */,
+				FED2E7371A19F2580043BA55 /* Supporting Files */,
+			);
+			path = "Tabbar And TableView";
+			sourceTree = "<group>";
+		};
+		FED2E7371A19F2580043BA55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7381A19F2580043BA55 /* Tabbar And TableView-Info.plist */,
+				FED2E7391A19F2580043BA55 /* InfoPlist.strings */,
+				FED2E73C1A19F2580043BA55 /* main.m */,
+				FED2E73E1A19F2580043BA55 /* Tabbar And TableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED2E74F1A19F2580043BA55 /* Tabbar And TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7551A19F2580043BA55 /* Tabbar_And_TableViewTests.m */,
+				FED2E7501A19F2580043BA55 /* Supporting Files */,
+			);
+			path = "Tabbar And TableViewTests";
+			sourceTree = "<group>";
+		};
+		FED2E7501A19F2580043BA55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7511A19F2580043BA55 /* Tabbar And TableViewTests-Info.plist */,
+				FED2E7521A19F2580043BA55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED2E7691A19F2B30043BA55 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7641A19F29D0043BA55 /* RegisterViewController.h */,
+				FED2E7651A19F29D0043BA55 /* RegisterViewController.m */,
+				FED2E75F1A19F27E0043BA55 /* TableViewController.h */,
+				FED2E7601A19F27E0043BA55 /* TableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FED2E76A1A19F2C40043BA55 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				FED2E7661A19F29D0043BA55 /* RegisterViewController.xib */,
+				FED2E7611A19F27E0043BA55 /* TableViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED2E72C1A19F2570043BA55 /* Tabbar And TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED2E7591A19F2580043BA55 /* Build configuration list for PBXNativeTarget "Tabbar And TableView" */;
+			buildPhases = (
+				FED2E7291A19F2570043BA55 /* Sources */,
+				FED2E72A1A19F2570043BA55 /* Frameworks */,
+				FED2E72B1A19F2570043BA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabbar And TableView";
+			productName = "Tabbar And TableView";
+			productReference = FED2E72D1A19F2570043BA55 /* Tabbar And TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED2E7471A19F2580043BA55 /* Tabbar And TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED2E75C1A19F2580043BA55 /* Build configuration list for PBXNativeTarget "Tabbar And TableViewTests" */;
+			buildPhases = (
+				FED2E7441A19F2580043BA55 /* Sources */,
+				FED2E7451A19F2580043BA55 /* Frameworks */,
+				FED2E7461A19F2580043BA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED2E74E1A19F2580043BA55 /* PBXTargetDependency */,
+			);
+			name = "Tabbar And TableViewTests";
+			productName = "Tabbar And TableViewTests";
+			productReference = FED2E7481A19F2580043BA55 /* Tabbar And TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED2E7251A19F2570043BA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sindhu Vempati";
+				TargetAttributes = {
+					FED2E7471A19F2580043BA55 = {
+						TestTargetID = FED2E72C1A19F2570043BA55;
+					};
+				};
+			};
+			buildConfigurationList = FED2E7281A19F2570043BA55 /* Build configuration list for PBXProject "Tabbar And TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FED2E7241A19F2570043BA55;
+			productRefGroup = FED2E72E1A19F2570043BA55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED2E72C1A19F2570043BA55 /* Tabbar And TableView */,
+				FED2E7471A19F2580043BA55 /* Tabbar And TableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED2E72B1A19F2570043BA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E7631A19F27E0043BA55 /* TableViewController.xib in Resources */,
+				FED2E73B1A19F2580043BA55 /* InfoPlist.strings in Resources */,
+				FED2E7431A19F2580043BA55 /* Images.xcassets in Resources */,
+				FED2E7681A19F29D0043BA55 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED2E7461A19F2580043BA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E7541A19F2580043BA55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED2E7291A19F2570043BA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E7411A19F2580043BA55 /* AppDelegate.m in Sources */,
+				FED2E7621A19F27E0043BA55 /* TableViewController.m in Sources */,
+				FED2E73D1A19F2580043BA55 /* main.m in Sources */,
+				FED2E7671A19F29D0043BA55 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED2E7441A19F2580043BA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2E7561A19F2580043BA55 /* Tabbar_And_TableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED2E74E1A19F2580043BA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED2E72C1A19F2570043BA55 /* Tabbar And TableView */;
+			targetProxy = FED2E74D1A19F2580043BA55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FED2E7391A19F2580043BA55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED2E73A1A19F2580043BA55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FED2E7521A19F2580043BA55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED2E7531A19F2580043BA55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED2E7571A19F2580043BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FED2E7581A19F2580043BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED2E75A1A19F2580043BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabbar And TableView/Tabbar And TableView-Prefix.pch";
+				INFOPLIST_FILE = "Tabbar And TableView/Tabbar And TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FED2E75B1A19F2580043BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabbar And TableView/Tabbar And TableView-Prefix.pch";
+				INFOPLIST_FILE = "Tabbar And TableView/Tabbar And TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FED2E75D1A19F2580043BA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tabbar And TableView.app/Tabbar And TableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabbar And TableView/Tabbar And TableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tabbar And TableViewTests/Tabbar And TableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FED2E75E1A19F2580043BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tabbar And TableView.app/Tabbar And TableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabbar And TableView/Tabbar And TableView-Prefix.pch";
+				INFOPLIST_FILE = "Tabbar And TableViewTests/Tabbar And TableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED2E7281A19F2570043BA55 /* Build configuration list for PBXProject "Tabbar And TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED2E7571A19F2580043BA55 /* Debug */,
+				FED2E7581A19F2580043BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED2E7591A19F2580043BA55 /* Build configuration list for PBXNativeTarget "Tabbar And TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED2E75A1A19F2580043BA55 /* Debug */,
+				FED2E75B1A19F2580043BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FED2E75C1A19F2580043BA55 /* Build configuration list for PBXNativeTarget "Tabbar And TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED2E75D1A19F2580043BA55 /* Debug */,
+				FED2E75E1A19F2580043BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED2E7251A19F2570043BA55 /* Project object */;
+}
